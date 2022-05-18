@@ -26,7 +26,7 @@ public class nomor1 {
 
         System.out.print("Input Mata Kuliah : ");
         String MataKuliah = input.nextLine();
-        System.out.print("-------- Tentukan Nilai --------");
+        System.out.print("-------- Tentukan Nilai --------"+"\n");
         System.out.print("Input Kehadiran   : ");
         kehadiran = input.nextInt();
         System.out.print("Input Nilai UTS   : ");
