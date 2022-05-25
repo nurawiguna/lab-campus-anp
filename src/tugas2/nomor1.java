@@ -27,11 +27,11 @@ public class nomor1 {
         System.out.print("Input Mata Kuliah : ");
         String MataKuliah = input.nextLine();
         System.out.print("-------- Tentukan Nilai --------"+"\n");
-        System.out.print("Input Kehadiran   : ");
+        System.out.print("Input Kehadiran 0-8\t: ");
         kehadiran = input.nextInt();
-        System.out.print("Input Nilai UTS   : ");
+        System.out.print("Input Nilai UTS\t\t: ");
         uts = input.nextFloat();
-        System.out.print("Input Nilai UAS   : ");
+        System.out.print("Input Nilai UAS\t\t: ");
         uas = input.nextFloat();
 
         if (kehadiran >= 7) {
